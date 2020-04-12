@@ -3,3 +3,5 @@ build/
 dist/
 
 Firo.egg-info/
+
+Firo/__pycache__/
