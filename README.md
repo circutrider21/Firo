@@ -35,3 +35,5 @@ $ pip install Firo
 - Fixed a glitch that returned an array instad of a singular sting
 
 - Also uploaded to pypi for the first time
+
+- Created readme
