@@ -13,4 +13,9 @@ class Start(object):
     out_sql = "SELECT val FROM info WHERE name='" + name + "'"
     self.cur.execute(out_sql)
     rows = self.cur.fetchall()
-    return rows[0]
+    counter = rows[0]
+    to_ret = counter[0]
+    return to_ret
+  def remove(self, to_do):
+    remove_sql = "DELETE name, val FROM info WHERE name='" + to_do +"'"
+    cur.execute(remove_sql)

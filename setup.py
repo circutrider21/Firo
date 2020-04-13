@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Firo", 
-    version="1.1.3",
+    version="1.1.4",
     author="Peeled Fruit Studios",
     author_email="Circutrider21@gmail.com",
     description="A Database That stores and gets values simply",
