@@ -5,3 +5,7 @@ dist/
 Firo.egg-info/
 
 Firo/__pycache__/
+
+*.db
+
+*.db-journal
