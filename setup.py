@@ -5,18 +5,18 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Firo", 
-    version="1.1.4",
+    version="1.2.0",
     author="Peeled Fruit Studios",
     author_email="Circutrider21@gmail.com",
-    description="A Database That stores and gets values simply",
+    description="A Realtime, No SQL Database",
     long_description=longdescription,
     long_description_content_type="text/markdown",
     url="https://github.com/circutrider21/FiroDB",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "Topic :: Database",
     ],
     python_requires='>=3.6',
 )

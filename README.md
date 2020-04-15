@@ -6,15 +6,18 @@ Firo is a small and efficient database system for python programs that eases lea
 
 Firo is also very functional and can be used in professional application due to the fact that it is very robust and functional
 
+## Version 1.2 is Here └[ò‿‿ó]┘, Release Notes At the bottom 
+
+
 ## Usage
 
 Below is a simple example that shows how to use Firo
 
 ```` python
 
-from Firo import FiroDB
+import Firo
 
-con = FiroDB.Start("data.db")
+con = Firo.Start("data.db")
 
 con.set("msg", "Hello")
 
@@ -48,10 +51,10 @@ $ pip install Firo
 
 ````
 
-### What's New
+### Version 1.2!!!
 
-- Fixed a glitch that returned an array instad of a singular sting
+- Added New Update, Version and Finalized Remove Function
 
-- Created readme
+- Created Clear exceptions with error codes
 
-- Added a remove function and fixed a bug that returned tuple instad of string
+- Now we use unittest for testing
