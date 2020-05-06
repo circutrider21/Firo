@@ -29,7 +29,7 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    cd tests
+    cd test
     python test.py
     rm Test.db
   displayName: '1/3 Running Tests...'
