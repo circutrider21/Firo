@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Firo", 
-    version="1.2.0",
+    version="1.2.1",
     author="Peeled Fruit Studios",
     author_email="Circutrider21@gmail.com",
     description="A Realtime, No SQL Database",
@@ -15,6 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Topic :: Database",
     ],
