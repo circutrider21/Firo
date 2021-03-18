@@ -7,7 +7,7 @@ class Testfiro(unittest.TestCase):
         self.con.set("hy", "ha")
         self.assertEqual(self.con.get("hy"), "ha", "Values Should Match")
     def test_version(self):
-        self.assertEqual(self.con.version(), "1.2", "Version should be the same aa the test")
+        self.assertEqual(self.con.version(), "1.2", "Version should be the same as the test")
     
     def test_update(self):
         self.con.update("hy", "ho")
